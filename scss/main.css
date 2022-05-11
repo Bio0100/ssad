@@ -4,7 +4,7 @@ body {
 
 .gallery {
   margin: auto;
-  in-height: 100vh;
+  min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FFF5F6), color-stop(50%, #ffffff));
   background: linear-gradient(to bottom, #FFF5F6 50%, #ffffff 50%);
 }
@@ -38,6 +38,12 @@ ul {
 }
 
 @media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
