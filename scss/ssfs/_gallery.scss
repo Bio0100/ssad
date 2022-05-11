@@ -2,15 +2,9 @@ body{
   min-height: 100vh;
 }
 .gallery{
-    margin: auto;
+    display: flex;
     min-height: 100vh;
     background: linear-gradient(to bottom, #FFF5F6 50%, #ffffff 50%);
-
-}
-section{
-    padding-top: 300px;
-    padding-bottom: 300px;
-
 }
 
 img {
